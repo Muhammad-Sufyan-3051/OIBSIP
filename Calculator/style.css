@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppine', sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua
+}
+
+.Calculator{
+    margin-top: 100px;
+    height: 480px;
+    border: 2px solid rgb(72, 64, 64);
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+
+input{
+    width: 320px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+    margin: 8px;
+    text-align: right;
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    margin-left: 18px;
+    border-radius: 40%;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 0 0 15px black;
+}
+
+button:hover{
+    background-color: white;
+}
+
+.Sufi{
+    height: fit-content;
+    width: fit-content;
+    padding: 6px;
+    font-size: 15px;
+    font-weight: 850;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 15px black;
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
