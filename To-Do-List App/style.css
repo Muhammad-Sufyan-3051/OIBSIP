@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg,#154977,#8eaedcf3);
+    background: linear-gradient(135deg, rgba(34,193,195,0.8), rgba(253,187,45,0.8));
     padding: 10px;
 }
 .todo-app{
@@ -17,7 +17,6 @@
     margin: 100px auto;
     padding: 40px 30px 70px;
     border-radius: 10px;
-    /* border: 3px solid #225089; */
 }
 .todo-app h2{
     color: #002765;
@@ -81,7 +80,6 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    /* background-image: url(images/checked.png); */
     background-image: url(images/checked-blue.jpg);
 }
 ul li span{
